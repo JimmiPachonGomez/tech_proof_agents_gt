@@ -1,0 +1,24 @@
+Reunión: Planeación Sprint 12
+Fecha: 2026-02-17
+Asistentes: Equipo Plataforma
+
+Objetivo del sprint:
+- Mejorar estabilidad del servicio de búsqueda y reducir errores 5xx.
+
+Historias priorizadas:
+1) Cache de resultados de búsqueda (alto impacto)
+2) Reintentos con backoff exponencial (medio)
+3) Observabilidad: trazas distribuidas (alto)
+4) Limpieza de deuda técnica en módulo de indexación (bajo)
+
+Capacidad:
+- 38 puntos estimados. Se reserva 20% para soporte e incidentes.
+
+Riesgos:
+- Dependencia con infraestructura para habilitar tracing.
+- Posible regresión en relevancia por cambios de cache.
+
+Definición de terminado:
+- Pruebas unitarias + integración
+- Métricas en dashboard
+- Documentación de endpoints y parámetros

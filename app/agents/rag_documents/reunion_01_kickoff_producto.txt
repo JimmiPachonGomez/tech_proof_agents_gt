@@ -1,0 +1,21 @@
+Reunión: Kickoff - Rediseño de App Móvil
+Fecha: 2026-02-03
+Asistentes: Ana (PM), Carlos (UX), Diego (Dev), Laura (QA)
+
+Agenda:
+- Objetivo del rediseño
+- Alcance de MVP
+- Métricas de éxito
+- Riesgos y próximos pasos
+
+Notas:
+- Objetivo: reducir abandono en onboarding y aumentar conversión a registro.
+- MVP incluye: nuevo flujo de registro, pantallas de permisos, y tutorial interactivo (3 pasos).
+- Métricas: tasa de registro (+15%), tiempo promedio de onboarding (-20%), tickets relacionados (-10%).
+- Riesgos: dependencia con equipo de backend para endpoint de verificación; tiempos de aprobación de diseño.
+- Acuerdos: UX entrega wireframes el 2026-02-10; Dev prepara spike técnico; QA define plan de pruebas.
+
+Acciones:
+- Carlos: wireframes v1 (2026-02-10)
+- Diego: spike endpoints onboarding (2026-02-12)
+- Laura: estrategia de pruebas + casos críticos (2026-02-14)

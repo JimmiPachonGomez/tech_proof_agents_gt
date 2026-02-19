@@ -1,0 +1,21 @@
+Reunión: Marketing - Campaña Q2
+Fecha: 2026-02-05
+Asistentes: Marketing, Diseño, Producto
+
+Objetivo:
+- Generar leads para el nuevo plan Pro.
+
+Canales:
+- Email nurturing (3 semanas)
+- Webinar demo
+- Ads en LinkedIn (segmento: operaciones y TI)
+
+Mensajes:
+- Ahorro de tiempo con automatización
+- Seguridad y control de permisos
+- Integración con herramientas existentes
+
+Acciones:
+- Diseño: piezas creativas (2026-02-12)
+- Marketing: calendario de envíos (2026-02-09)
+- Producto: lista de features y casos de uso (2026-02-07)

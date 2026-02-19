@@ -1,0 +1,16 @@
+Reunión: Retro Sprint 11
+Fecha: 2026-02-07
+Asistentes: Equipo
+
+Qué salió bien:
+- Mejor coordinación entre backend y QA.
+- Se redujeron bugs en release.
+
+Qué mejorar:
+- Estimaciones demasiado optimistas.
+- Falta revisar dependencias externas al inicio.
+
+Acciones:
+- Incluir checklist de dependencias en planning.
+- Reservar buffer para soporte.
+- Mejorar definición de 'listo' con criterios medibles.

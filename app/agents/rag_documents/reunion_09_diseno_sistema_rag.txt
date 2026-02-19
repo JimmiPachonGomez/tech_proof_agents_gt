@@ -1,0 +1,22 @@
+Reunión: Diseño Técnico - Sistema RAG para Notas
+Fecha: 2026-02-14
+Asistentes: ML Eng, Backend, Producto
+
+Requerimientos:
+- Ingesta de notas de reuniones (TXT/MD)
+- Chunking configurable (tamaño, solapamiento)
+- Vector store local para prototipo
+- Endpoint /ask para consultas
+
+Decisiones:
+- Usar embeddings sentence-transformers (modelo pequeño).
+- Vector store: FAISS para prototipo; opción Chroma como alternativa.
+- Prompt con instrucciones: responder solo con evidencia del contexto y citar IDs de fragmentos.
+
+Riesgos:
+- Alucinaciones si no se controla el prompt.
+- Documentos largos requieren buen chunking.
+
+Acciones:
+- ML: baseline embeddings + evaluación (2026-02-18)
+- Backend: endpoint /ask y esquema de request/response (2026-02-19)

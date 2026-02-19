@@ -1,0 +1,17 @@
+Reunión: Roadmap - Plataforma de Datos
+Fecha: 2026-01-30
+Asistentes: Data Eng, Analytics, Producto
+
+Temas:
+- Migración a nuevo data warehouse
+- Calidad de datos y lineage
+- Costos de consulta
+
+Decisiones:
+- Migrar primero eventos de producto (tracking) y luego facturación.
+- Implementar validaciones: esquema, null checks, rangos.
+- Definir presupuesto mensual de consultas y alertas por sobrecostos.
+
+Acciones:
+- Data Eng: plan de migración (2026-02-06)
+- Analytics: catálogo de métricas y definiciones (2026-02-10)

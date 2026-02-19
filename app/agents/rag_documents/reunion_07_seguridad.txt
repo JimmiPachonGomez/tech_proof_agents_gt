@@ -1,0 +1,16 @@
+Reunión: Seguridad - Revisión Accesos
+Fecha: 2026-02-11
+Asistentes: Seguridad, Infra, Producto
+
+Hallazgos:
+- Cuentas de servicio con permisos amplios sin expiración.
+- Falta rotación automática de secretos en 2 servicios.
+
+Decisiones:
+- Aplicar principio de menor privilegio.
+- Rotación de secretos cada 90 días.
+- Auditoría mensual de accesos privilegiados.
+
+Acciones:
+- Infra: ajustar IAM para cuentas de servicio (2026-02-20)
+- Seguridad: política de rotación y checklist (2026-02-15)

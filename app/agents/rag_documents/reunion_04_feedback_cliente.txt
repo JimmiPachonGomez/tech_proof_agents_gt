@@ -1,0 +1,18 @@
+Reunión: Feedback Cliente - Enterprise
+Fecha: 2026-02-08
+Asistentes: Ventas, Customer Success, Producto
+
+Feedback clave:
+- Quieren exportar reportes en CSV y programar envíos automáticos.
+- Problemas con permisos: roles actuales no cubren 'solo lectura con exportación'.
+- Solicitan SSO con Azure AD y auditoría de accesos.
+
+Priorización:
+- CSV export: P1 (para cierre de renovación)
+- Role 'Reader+Export': P1
+- SSO Azure AD: P2 (depende de seguridad)
+- Auditoría avanzada: P3
+
+Siguientes pasos:
+- Producto define PRD corto y alcance por iteración.
+- Ingeniería estima y propone diseño de permisos.

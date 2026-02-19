@@ -1,0 +1,26 @@
+Reunión: Postmortem - Incidente de Pagos
+Fecha: 2026-01-28
+Asistentes: Sofía (SRE), Mateo (Backend), Paula (Soporte), Andrés (Finanzas)
+
+Resumen del incidente:
+- Ventana: 10:05–11:20 GMT-6
+- Impacto: 7% de transacciones fallidas, principalmente tarjetas internacionales.
+- Síntoma: timeouts en proveedor de pagos y reintentos excesivos.
+
+Causa raíz:
+- Cambio de configuración en el pool de conexiones del servicio de pagos.
+- El límite de conexiones se redujo accidentalmente de 200 a 20.
+
+Detección y respuesta:
+- Alertas por aumento de latencia a los 8 minutos.
+- Mitigación: rollback de configuración + rate limit temporal en reintentos.
+
+Acciones correctivas:
+- Validación automática de configs en CI/CD.
+- Runbook de pagos actualizado.
+- Alerta específica por cambios en parámetros críticos.
+
+Dueños:
+- Mateo: validación en pipeline (2026-02-05)
+- Sofía: alerta + dashboard (2026-02-02)
+- Paula: comunicación plantilla incidente (2026-02-01)

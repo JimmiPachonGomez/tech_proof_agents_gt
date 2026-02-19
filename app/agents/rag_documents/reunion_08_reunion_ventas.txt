@@ -1,0 +1,16 @@
+Reunión: Ventas - Pipeline Semanal
+Fecha: 2026-02-16
+Asistentes: Ventas, CS
+
+Estado pipeline:
+- 12 oportunidades activas
+- 3 en negociación final (valor total: $95k)
+- 4 bloqueadas por requisitos de seguridad
+
+Bloqueadores:
+- Solicitud de DPA y anexos legales
+- Integración SSO y auditoría
+
+Acciones:
+- CS: preparar respuesta estándar de seguridad (2026-02-18)
+- Ventas: coordinar demo técnica con Ingeniería (2026-02-19)
