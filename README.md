@@ -11,7 +11,7 @@ Asegúrate de tener instalado [Docker](https://www.docker.com/) y **Docker Compo
 Primero, clona este proyecto y accede a la carpeta principal:
 
 ```bash
-git clone [https://github.com/JimmiPachonGomez/tech_proof_agents_gt.git](https://github.com/JimmiPachonGomez/tech_proof_agents_gt.git)
+git clone https://github.com/JimmiPachonGomez/tech_proof_agents_gt.git
 ```
 Ubícate en la carpeta donde se encuentra el archivo docket-compose.yml, abre el archivo .env que fué dejado a propósito y coloca una api key de Gemini, guarda y después ejecuta en la terminal:
 ```bash
