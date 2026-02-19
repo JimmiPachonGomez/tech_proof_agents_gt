@@ -12,9 +12,11 @@ Primero, clona este proyecto y accede a la carpeta principal:
 
 ```bash
 git clone [https://github.com/JimmiPachonGomez/tech_proof_agents_gt.git](https://github.com/JimmiPachonGomez/tech_proof_agents_gt.git)
-
+```
 Ubícate en la carpeta donde se encuentra el archivo docket-compose.yml, abre el archivo .env que fué dejado a propósito y coloca una api key de Gemini, guarda y después ejecuta en la terminal:
+```bash
 docker compose up --build
+```
 
 Puede tardar unos minutos en levantar el contenedor ya que también carga una imagen de postgres y una extensión para base de datos vectorial.
 
